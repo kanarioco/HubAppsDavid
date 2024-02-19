@@ -1,0 +1,73 @@
+
+
+  .myMain {
+    background-color: rgba(233, 187, 122, 0.422);
+    align-items: center;
+    text-align: center;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 15px 0px 15px;
+    
+   
+
+}
+
+
+.pReady {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10%;
+    font-size: large;
+}
+
+
+
+#butLog , #butSing {
+
+    text-align: center;
+    padding:10px;
+    margin:20px;
+    width: 50%;
+    border:1px solid black;
+    border-radius: 40%;
+    background: linear-gradient(
+        to right,
+        rgba(0, 255, 21, 0.596),
+        #07a6ead4);
+        
+}
+
+
+#butLog:hover , #butSing:hover {
+    padding:10px;
+    margin:20px;
+    border:1px solid rgba(0, 0, 0, 0.413);
+    border-radius: 40%;
+    color: white;
+    cursor:pointer;
+    background: linear-gradient(
+        to right,
+        rgba(174, 255, 0, 0.724),
+        #950bbbb2);
+}
+
+#butSing:hover {
+    margin-top: 0%;
+}
+
+  #butSing {
+    margin-top: 0%;
+    background: linear-gradient(
+        to right,
+        rgba(174, 255, 0, 0.724),
+        #950bbbb2);
+  }
+
+
+
+  #username {
+    margin-bottom: 5%;
+    display: flex;
+    flex-flow: column;
+  }

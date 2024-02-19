@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(131, 2, 252, 0.4);
+  -webkit-box-shadow: 0px 8px 30px -3px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 0px 8px 30px -3px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 8px 30px -3px rgba(0, 0, 0, 0.61);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  color: #0def03;
+  & span {
+    color: white;
+  }
+}
+
+.createdBy {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  font-size: x-large;  
+}
